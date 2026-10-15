@@ -1,0 +1,55 @@
+export const options = [
+  {
+    name: "Savings account",
+    description: "A place to keep cash with a bank, ready for everyday life.",
+    loss: "Usually stable in rupees; inflation can reduce buying power. Bank risk still exists.",
+    access: "Usually available anytime.",
+    fees: "Account or minimum-balance fees may apply.",
+    lock: "Usually no fixed term.",
+    use: "Emergency money and everyday needs.",
+    rate: "3% p.a. illustration",
+  },
+  {
+    name: "Fixed deposit",
+    description: "Money held with a bank for a chosen term at an agreed rate.",
+    loss: "Usually stable if held to maturity; bank risk and inflation remain.",
+    access: "Early withdrawal may reduce interest or incur a penalty.",
+    fees: "Early-exit penalties and tax on interest may apply.",
+    lock: "A chosen maturity; some deposits restrict early access.",
+    use: "Known expenses and a more predictable part of a plan.",
+    rate: "6.5% p.a. illustration",
+  },
+  {
+    name: "Bonds",
+    description:
+      "You lend to a government or company, which promises interest and repayment.",
+    loss: "Yes. Prices can fall; an issuer could fail to repay.",
+    access: "Depends on the bond; selling may be difficult.",
+    fees: "Brokerage, spreads, fund costs and tax may apply.",
+    lock: "A maturity date; selling early may change the value.",
+    use: "Income or diversification when you understand issuer risk.",
+    rate: "No rate assumed",
+  },
+  {
+    name: "Gold",
+    description:
+      "A physical asset or financial product tracking the price of gold.",
+    loss: "Yes. Prices can fall and it produces no regular business income.",
+    access: "Depends on the product and market.",
+    fees: "Making charges, storage, spreads or fund fees; tax may apply.",
+    lock: "Product-dependent; some have holding restrictions.",
+    use: "A small diversifier, rather than an entire plan.",
+    rate: "No rate assumed",
+  },
+  {
+    name: "Equity index funds",
+    description:
+      "A fund holding shares in many companies to follow a market index.",
+    loss: "Yes. Large falls and years of losses are possible.",
+    access: "Usually redeemable on business days; settlement takes time.",
+    fees: "An expense ratio (annual fund fee), possible exit load and tax.",
+    lock: "Usually none for broad-market open-ended funds; check the product.",
+    use: "Long-term goals when you can tolerate uncertainty.",
+    rate: "12% p.a. illustration",
+  },
+];
